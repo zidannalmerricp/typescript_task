@@ -14,3 +14,23 @@
  *  - Final payment
  * 2. Display the calculation results.
  */
+
+const foodPrice: number = 18000;
+const foodQuantity: number = 3;
+
+const drinkPrice: number = 5000;
+const drinkQuantity: number = 2;
+
+const discount: number = 10000;
+
+const totalFoodPrice: number = foodPrice * foodQuantity;
+const totalDrinkPrice: number = drinkPrice * drinkQuantity;
+
+const grandTotal: number = totalFoodPrice + totalDrinkPrice;
+
+const finalPayment: number = grandTotal - discount;
+
+console.log("Total food price:", totalFoodPrice);
+console.log("Total drink price:", totalDrinkPrice);
+console.log("Grand total:", grandTotal);
+console.log("Final payment:", finalPayment);

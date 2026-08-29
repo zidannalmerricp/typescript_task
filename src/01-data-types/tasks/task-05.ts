@@ -22,7 +22,7 @@ type Attendance = {
 
 const attendance1: Attendance = {
   employeeId: "EMP001",
-  employeeName: "Budi Santoso",
+  employeeName: "Budi Tamtomo",
   date: "2026-08-18",
   checkInTime: "08:00",
   checkOutTime: "17:00",
@@ -32,7 +32,7 @@ const attendance1: Attendance = {
 
 const attendance2: Attendance = {
   employeeId: "EMP002",
-  employeeName: "Siti Aminah",
+  employeeName: "Rudi Hartono",
   date: "2026-08-18",
   checkInTime: "08:15",
   checkOutTime: "17:00",
@@ -42,7 +42,7 @@ const attendance2: Attendance = {
 
 const attendance3: Attendance = {
   employeeId: "EMP003",
-  employeeName: "Andi Prakoso",
+  employeeName: "Windi Jatmiko",
   date: "2026-08-18",
   checkInTime: "-",
   checkOutTime: "-",
