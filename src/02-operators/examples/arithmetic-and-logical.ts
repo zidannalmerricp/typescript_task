@@ -1,7 +1,7 @@
 /**
  * Module 02: Operators — Examples
- *
- * Run: npm run example src/02-operators/examples/arithmetic-and-logical.ts
+ *npm run example src/02-operators/examples/arithmetic-and-logical.ts
+ * Run: 
  */
 
 const a: number = 10;

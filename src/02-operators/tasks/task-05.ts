@@ -55,7 +55,7 @@ const isAccepted: boolean =
 
 const scholarshipAmount: number = isAccepted ? 12000000 : 0;
 
-const totalBudget: number = 50000000;
+const totalBudget: number = 500000000;
 const remainingBudget: number = totalBudget - scholarshipAmount;
 
 console.log("Student Name:", studentName);

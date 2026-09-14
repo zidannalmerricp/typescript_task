@@ -15,6 +15,8 @@
  * 2. Display the calculation results.
  */
 
+
+
 const foodPrice: number = 18000;
 const foodQuantity: number = 3;
 

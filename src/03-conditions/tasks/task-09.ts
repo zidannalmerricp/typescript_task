@@ -34,5 +34,28 @@ Today's machine status:
 Student Tasks
 - Declare all variables.
 - Translate every business rule into conditional statements.
-- Display the final machine status.
+- Display the final machine status
  */
+
+const isPoweredOn: boolean = true;
+const temperature: number = 95;
+const isHighVibration: boolean = false;
+const productionSpeed: number = 92;
+
+if (!isPoweredOn) {
+  console.log("Machine Offline");
+} else {
+  if (temperature > 90) {
+    if (isHighVibration) {
+      console.log("Emergency Shutdown");
+    } else {
+      console.log("Cooling Required");
+    }
+  } else {
+    if (productionSpeed < 80) {
+      console.log("Performance Warning");
+    } else {
+      console.log("Machine Operating Normally");
+    }
+  }
+}
