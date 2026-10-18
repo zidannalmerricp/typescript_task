@@ -25,3 +25,33 @@ const submissions = [
     { student: "Gita", submitted: true, score: 90 },
     { student: "Hana", submitted: true, score: 73 }
 ];
+
+let submitted = 0;
+let notSubmitted = 0;
+let passed = 0;
+let revise = 0;
+let total = 0;
+
+for (let i = 0; i < submissions.length; i++) {
+  total += submissions[i].score;
+
+  if (submissions[i].submitted === true) {
+    submitted++;
+
+    if (submissions[i].score >= 75) {
+      passed++;
+    } else {
+      revise++;
+      console.log("Must revise:", submissions[i].student);
+    }
+  } else {
+    notSubmitted++;
+    console.log("Did not submit:", submissions[i].student);
+  }
+}
+
+console.log("Students submitted:", submitted);
+console.log("Students not submitted:", notSubmitted);
+console.log("Students passed:", passed);
+console.log("Students must revise:", revise);
+console.log("Class average score:", total / submissions.length);
