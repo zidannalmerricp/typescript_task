@@ -18,7 +18,12 @@
  * - Average competition score
  */
 
-const scores = [98, 90, 82, 70, 96, 88, 76, 60, 85, 93];
+const scores = [
+    98, 76, 85, 62, 91,
+    73, 88, 59, 100, 81,
+    67, 79, 94, 83, 71,
+    96, 65, 87, 74, 90
+];
 
 let gold = 0;
 let silver = 0;
