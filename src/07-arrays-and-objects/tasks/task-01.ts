@@ -50,3 +50,5 @@ console.log("getProductNames:", getProductNames(products)); // expected: ["Pen",
 console.log("getAffordable(<2):", getAffordable(products, 2)); // expected: Pen and Eraser
 console.log("findProductById(2):", findProductById(products, 2)?.name); // expected: "Notebook"
 console.log("updatePrice:", updatePrice(products[0], 2.0)); // expected: { id: 1, name: "Pen", price: 2.0 }
+
+
